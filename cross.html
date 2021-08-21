@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Document</title>
+<style>
+    td{
+        height: 29.7%;
+        width:  29.7%;
+        
+        color:white;
+        font-size: 5.4vw;
+        text-align: center;
+        border:2px solid grey;
+        border-radius: 5%;
+    }
+    table{
+        margin: auto;
+        border:none;
+        width: 27vw;
+        height: 27vw;
+        
+        /* box-shadow: 1px 1px 1px 1px grey; */
+
+    }
+    .result{
+        margin: auto;
+        text-align: center;
+    }
+    .heading{
+        text-align: center;
+        font-size: 3.5vw;
+    }
+    .h2{
+        text-align: center;
+        font-size: 1.5vw;
+    }
+</style>
+
+</head>
+<body>
+
+    <h1 class="heading"><b>
+        TIC TAK TOE
+    </b></h1>
+    <h1 id="turn" class="h2">
+
+    </h1>
+    <table>
+        <tr>
+            <td onclick="cross(this)"></td>
+            <td onclick="cross(this)"></td>
+            <td onclick="cross(this)"></td>
+        </tr>
+        <tr>
+            <td onclick="cross(this)"></td>
+            <td onclick="cross(this)"></td>
+            <td onclick="cross(this)"></td>
+        </tr>
+        <tr>
+            <td onclick="cross(this)"></td>
+            <td onclick="cross(this)"></td>
+            <td onclick="cross(this)"></td>
+        </tr>
+    </table>
+    <div class="result">
+        <h1 ><a href="" style="text-decoration: none;">Reset</a></h1>
+        <h1 id="result">
+
+        </h1>
+    </div>
+</body>
+<script src="cutcross.js"></script>
+</html>
